@@ -1,4 +1,4 @@
-# csci.142.p1
+# csci.142
   Spring 2021
   JAVA
 
