@@ -1,0 +1,2512 @@
+ROUND 1
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (2): A♠ A♧ 
+	Dealer (2): 10♢ 2♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (6): A♠ A♧ 4♠ 
+	Dealer (2): 10♢ 2♢ J♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=1.0, wins=1, losses=0, win percentage=1.0}
+	Player{name='BankerBetter', id=1, balance=-1.0, wins=0, losses=1, win percentage=0.0}
+	Player{name='TieBetter', id=2, balance=-1.0, wins=0, losses=1, win percentage=0.0}
+	Player{name='CustomBetter', id=3, balance=-1.0, wins=0, losses=1, win percentage=0.0}
+
+ROUND 2
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (2): 2♥ K♠ 
+	Dealer (9): A♢ 8♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=1, losses=1, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-0.050000000000000044, wins=1, losses=1, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-2.0, wins=0, losses=2, win percentage=0.0}
+	Player{name='CustomBetter', id=3, balance=-0.050000000000000044, wins=1, losses=1, win percentage=0.5}
+
+ROUND 3
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (0): K♥ J♧ 
+	Dealer (6): 5♠ A♥ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (9): K♥ J♧ 9♠ 
+	Dealer (6): 5♠ A♥ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=1.0, wins=2, losses=1, win percentage=0.6666666666666666}
+	Player{name='BankerBetter', id=1, balance=-1.05, wins=1, losses=2, win percentage=0.3333333333333333}
+	Player{name='TieBetter', id=2, balance=-3.0, wins=0, losses=3, win percentage=0.0}
+	Player{name='CustomBetter', id=3, balance=-1.05, wins=1, losses=2, win percentage=0.3333333333333333}
+
+ROUND 4
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (9): 3♥ 6♢ 
+	Dealer (7): Q♢ 7♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=2.0, wins=3, losses=1, win percentage=0.75}
+	Player{name='BankerBetter', id=1, balance=-2.05, wins=1, losses=3, win percentage=0.25}
+	Player{name='TieBetter', id=2, balance=-4.0, wins=0, losses=4, win percentage=0.0}
+	Player{name='CustomBetter', id=3, balance=-2.05, wins=1, losses=3, win percentage=0.25}
+
+ROUND 5
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (6): 6♠ 10♧ 
+	Dealer (0): K♢ Q♠ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): 6♠ 10♧ 
+	Dealer (9): K♢ Q♠ 9♢ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=1.0, wins=3, losses=2, win percentage=0.6}
+	Player{name='BankerBetter', id=1, balance=-1.0999999999999999, wins=2, losses=3, win percentage=0.4}
+	Player{name='TieBetter', id=2, balance=-5.0, wins=0, losses=5, win percentage=0.0}
+	Player{name='CustomBetter', id=3, balance=-1.0999999999999999, wins=2, losses=3, win percentage=0.4}
+
+ROUND 6
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (0): Q♥ J♥ 
+	Dealer (7): J♠ 7♢ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (7): Q♥ J♥ 7♠ 
+	Dealer (7): J♠ 7♢ 
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter won 9.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=3, losses=3, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-2.0999999999999996, wins=2, losses=4, win percentage=0.3333333333333333}
+	Player{name='TieBetter', id=2, balance=3.0, wins=1, losses=5, win percentage=0.16666666666666666}
+	Player{name='CustomBetter', id=3, balance=6.9, wins=3, losses=3, win percentage=0.5}
+
+ROUND 7
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (0): 2♠ 8♧ 
+	Dealer (0): 7♧ 3♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (8): 2♠ 8♧ 8♠ 
+	Dealer (4): 7♧ 3♢ 4♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=1.0, wins=4, losses=3, win percentage=0.5714285714285714}
+	Player{name='BankerBetter', id=1, balance=-3.0999999999999996, wins=2, losses=5, win percentage=0.2857142857142857}
+	Player{name='TieBetter', id=2, balance=2.0, wins=1, losses=6, win percentage=0.14285714285714285}
+	Player{name='CustomBetter', id=3, balance=5.9, wins=3, losses=4, win percentage=0.42857142857142855}
+
+ROUND 8
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (5): 10♥ 5♧ 
+	Dealer (2): 9♥ 3♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): 10♥ 5♧ 9♧ 
+	Dealer (8): 9♥ 3♠ 6♥ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=4, losses=4, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-2.1499999999999995, wins=3, losses=5, win percentage=0.375}
+	Player{name='TieBetter', id=2, balance=1.0, wins=1, losses=7, win percentage=0.125}
+	Player{name='CustomBetter', id=3, balance=6.8500000000000005, wins=4, losses=4, win percentage=0.5}
+
+ROUND 9
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (6): 2♧ 4♥ 
+	Dealer (9): 4♢ 5♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=4, losses=5, win percentage=0.4444444444444444}
+	Player{name='BankerBetter', id=1, balance=-1.1999999999999995, wins=4, losses=5, win percentage=0.4444444444444444}
+	Player{name='TieBetter', id=2, balance=0.0, wins=1, losses=8, win percentage=0.1111111111111111}
+	Player{name='CustomBetter', id=3, balance=7.800000000000001, wins=5, losses=4, win percentage=0.5555555555555556}
+
+ROUND 10
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (5): Q♧ 5♥ 
+	Dealer (3): 3♧ K♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (5): Q♧ 5♥ 10♠ 
+	Dealer (1): 3♧ K♧ 8♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=5, losses=5, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-2.1999999999999993, wins=4, losses=6, win percentage=0.4}
+	Player{name='TieBetter', id=2, balance=-1.0, wins=1, losses=9, win percentage=0.1}
+	Player{name='CustomBetter', id=3, balance=6.800000000000001, wins=5, losses=5, win percentage=0.5}
+
+ROUND 11
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+	Reshuffling cards
+HANDS
+	Player (6): Q♢ 6♢ 
+	Dealer (7): 7♥ K♠ 
+HIT/STAND
+HANDS
+	Player (6): Q♢ 6♢ 
+	Dealer (7): 7♥ K♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=5, losses=6, win percentage=0.45454545454545453}
+	Player{name='BankerBetter', id=1, balance=-1.2499999999999993, wins=5, losses=6, win percentage=0.45454545454545453}
+	Player{name='TieBetter', id=2, balance=-2.0, wins=1, losses=10, win percentage=0.09090909090909091}
+	Player{name='CustomBetter', id=3, balance=7.750000000000001, wins=6, losses=5, win percentage=0.5454545454545454}
+
+ROUND 12
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): 7♠ J♥ 
+	Dealer (3): 5♥ 8♠ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (7): 7♠ J♥ 
+	Dealer (1): 5♥ 8♠ 8♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=6, losses=6, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-2.249999999999999, wins=5, losses=7, win percentage=0.4166666666666667}
+	Player{name='TieBetter', id=2, balance=-3.0, wins=1, losses=11, win percentage=0.08333333333333333}
+	Player{name='CustomBetter', id=3, balance=6.750000000000001, wins=6, losses=6, win percentage=0.5}
+
+ROUND 13
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (2): Q♧ 2♥ 
+	Dealer (5): 7♧ 8♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (3): Q♧ 2♥ A♧ 
+	Dealer (5): 7♧ 8♧ J♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=6, losses=7, win percentage=0.46153846153846156}
+	Player{name='BankerBetter', id=1, balance=-1.2999999999999992, wins=6, losses=7, win percentage=0.46153846153846156}
+	Player{name='TieBetter', id=2, balance=-4.0, wins=1, losses=12, win percentage=0.07692307692307693}
+	Player{name='CustomBetter', id=3, balance=7.700000000000001, wins=7, losses=6, win percentage=0.5384615384615384}
+
+ROUND 14
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): K♧ 3♥ 
+	Dealer (1): 6♥ 5♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (5): K♧ 3♥ 2♠ 
+	Dealer (1): 6♥ 5♢ J♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=7, losses=7, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-2.299999999999999, wins=6, losses=8, win percentage=0.42857142857142855}
+	Player{name='TieBetter', id=2, balance=-5.0, wins=1, losses=13, win percentage=0.07142857142857142}
+	Player{name='CustomBetter', id=3, balance=6.700000000000001, wins=7, losses=7, win percentage=0.5}
+
+ROUND 15
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (3): 10♠ 3♠ 
+	Dealer (3): 3♢ J♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): 10♠ 3♠ A♢ 
+	Dealer (5): 3♢ J♢ 2♧ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=7, losses=8, win percentage=0.4666666666666667}
+	Player{name='BankerBetter', id=1, balance=-1.349999999999999, wins=7, losses=8, win percentage=0.4666666666666667}
+	Player{name='TieBetter', id=2, balance=-6.0, wins=1, losses=14, win percentage=0.06666666666666667}
+	Player{name='CustomBetter', id=3, balance=7.650000000000001, wins=8, losses=7, win percentage=0.5333333333333333}
+
+ROUND 16
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 4♢ 9♧ 
+	Dealer (7): 8♥ 9♢ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (4): 4♢ 9♧ A♠ 
+	Dealer (7): 8♥ 9♢ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=7, losses=9, win percentage=0.4375}
+	Player{name='BankerBetter', id=1, balance=-0.3999999999999988, wins=8, losses=8, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-7.0, wins=1, losses=15, win percentage=0.0625}
+	Player{name='CustomBetter', id=3, balance=6.650000000000001, wins=8, losses=8, win percentage=0.5}
+
+ROUND 17
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 4♧ 9♥ 
+	Dealer (9): 5♠ 4♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=7, losses=10, win percentage=0.4117647058823529}
+	Player{name='BankerBetter', id=1, balance=0.5500000000000012, wins=9, losses=8, win percentage=0.5294117647058824}
+	Player{name='TieBetter', id=2, balance=-8.0, wins=1, losses=16, win percentage=0.058823529411764705}
+	Player{name='CustomBetter', id=3, balance=5.650000000000001, wins=8, losses=9, win percentage=0.47058823529411764}
+
+ROUND 18
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): 6♧ Q♥ 
+	Dealer (9): 2♢ 7♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=7, losses=11, win percentage=0.3888888888888889}
+	Player{name='BankerBetter', id=1, balance=1.500000000000001, wins=10, losses=8, win percentage=0.5555555555555556}
+	Player{name='TieBetter', id=2, balance=-9.0, wins=1, losses=17, win percentage=0.05555555555555555}
+	Player{name='CustomBetter', id=3, balance=4.650000000000001, wins=8, losses=10, win percentage=0.4444444444444444}
+
+ROUND 19
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (0): K♥ 10♧ 
+	Dealer (0): A♥ 9♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (0): K♥ 10♧ 10♥ 
+	Dealer (5): A♥ 9♠ 5♧ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=7, losses=12, win percentage=0.3684210526315789}
+	Player{name='BankerBetter', id=1, balance=2.450000000000001, wins=11, losses=8, win percentage=0.5789473684210527}
+	Player{name='TieBetter', id=2, balance=-10.0, wins=1, losses=18, win percentage=0.05263157894736842}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=8, losses=11, win percentage=0.42105263157894735}
+
+ROUND 20
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (0): K♢ 10♢ 
+	Dealer (6): Q♠ 6♠ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (4): K♢ 10♢ 4♠ 
+	Dealer (6): Q♠ 6♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=7, losses=13, win percentage=0.35}
+	Player{name='BankerBetter', id=1, balance=3.4000000000000012, wins=12, losses=8, win percentage=0.6}
+	Player{name='TieBetter', id=2, balance=-11.0, wins=1, losses=19, win percentage=0.05}
+	Player{name='CustomBetter', id=3, balance=2.6500000000000012, wins=8, losses=12, win percentage=0.4}
+
+ROUND 21
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+	Reshuffling cards
+HANDS
+	Player (5): 6♥ 9♧ 
+	Dealer (5): 5♢ 10♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (7): 6♥ 9♧ 2♢ 
+	Dealer (5): 5♢ 10♢ K♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=8, losses=13, win percentage=0.38095238095238093}
+	Player{name='BankerBetter', id=1, balance=2.4000000000000012, wins=12, losses=9, win percentage=0.5714285714285714}
+	Player{name='TieBetter', id=2, balance=-12.0, wins=1, losses=20, win percentage=0.047619047619047616}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=9, losses=12, win percentage=0.42857142857142855}
+
+ROUND 22
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (5): J♢ 5♧ 
+	Dealer (6): 2♧ 4♥ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (5): J♢ 5♧ 10♧ 
+	Dealer (6): 2♧ 4♥ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=8, losses=14, win percentage=0.36363636363636365}
+	Player{name='BankerBetter', id=1, balance=3.3500000000000014, wins=13, losses=9, win percentage=0.5909090909090909}
+	Player{name='TieBetter', id=2, balance=-13.0, wins=1, losses=21, win percentage=0.045454545454545456}
+	Player{name='CustomBetter', id=3, balance=2.6500000000000012, wins=9, losses=13, win percentage=0.4090909090909091}
+
+ROUND 23
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (8): 8♧ 10♥ 
+	Dealer (2): 2♥ 10♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=9, losses=14, win percentage=0.391304347826087}
+	Player{name='BankerBetter', id=1, balance=2.3500000000000014, wins=13, losses=10, win percentage=0.5652173913043478}
+	Player{name='TieBetter', id=2, balance=-14.0, wins=1, losses=22, win percentage=0.043478260869565216}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=10, losses=13, win percentage=0.43478260869565216}
+
+ROUND 24
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (8): 9♢ 9♥ 
+	Dealer (8): Q♧ 8♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=9, losses=15, win percentage=0.375}
+	Player{name='BankerBetter', id=1, balance=1.3500000000000014, wins=13, losses=11, win percentage=0.5416666666666666}
+	Player{name='TieBetter', id=2, balance=-6.0, wins=2, losses=22, win percentage=0.08333333333333333}
+	Player{name='CustomBetter', id=3, balance=2.6500000000000012, wins=10, losses=14, win percentage=0.4166666666666667}
+
+ROUND 25
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (6): A♥ 5♠ 
+	Dealer (4): A♠ 3♧ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): A♥ 5♠ 
+	Dealer (2): A♠ 3♧ 8♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=10, losses=15, win percentage=0.4}
+	Player{name='BankerBetter', id=1, balance=0.3500000000000014, wins=13, losses=12, win percentage=0.52}
+	Player{name='TieBetter', id=2, balance=-7.0, wins=2, losses=23, win percentage=0.08}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=11, losses=14, win percentage=0.44}
+
+ROUND 26
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (5): J♥ 5♥ 
+	Dealer (0): 6♠ 4♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (9): J♥ 5♥ 4♠ 
+	Dealer (3): 6♠ 4♢ 3♥ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=11, losses=15, win percentage=0.4230769230769231}
+	Player{name='BankerBetter', id=1, balance=-0.6499999999999986, wins=13, losses=13, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-8.0, wins=2, losses=24, win percentage=0.07692307692307693}
+	Player{name='CustomBetter', id=3, balance=4.650000000000001, wins=12, losses=14, win percentage=0.46153846153846156}
+
+ROUND 27
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (7): 7♥ J♠ 
+	Dealer (1): A♢ Q♢ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (7): 7♥ J♠ 
+	Dealer (1): A♢ Q♢ Q♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=12, losses=15, win percentage=0.4444444444444444}
+	Player{name='BankerBetter', id=1, balance=-1.6499999999999986, wins=13, losses=14, win percentage=0.48148148148148145}
+	Player{name='TieBetter', id=2, balance=-9.0, wins=2, losses=25, win percentage=0.07407407407407407}
+	Player{name='CustomBetter', id=3, balance=5.650000000000001, wins=13, losses=14, win percentage=0.48148148148148145}
+
+ROUND 28
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): K♢ 7♠ 
+	Dealer (9): 3♢ 6♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=12, losses=16, win percentage=0.42857142857142855}
+	Player{name='BankerBetter', id=1, balance=-0.6999999999999986, wins=14, losses=14, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-10.0, wins=2, losses=26, win percentage=0.07142857142857142}
+	Player{name='CustomBetter', id=3, balance=4.650000000000001, wins=13, losses=15, win percentage=0.4642857142857143}
+
+ROUND 29
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (2): 2♠ J♧ 
+	Dealer (4): 7♧ 7♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (2): 2♠ J♧ K♠ 
+	Dealer (8): 7♧ 7♢ 4♧ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=12, losses=17, win percentage=0.41379310344827586}
+	Player{name='BankerBetter', id=1, balance=0.25000000000000133, wins=15, losses=14, win percentage=0.5172413793103449}
+	Player{name='TieBetter', id=2, balance=-11.0, wins=2, losses=27, win percentage=0.06896551724137931}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=13, losses=16, win percentage=0.4482758620689655}
+
+ROUND 30
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (1): A♧ Q♥ 
+	Dealer (3): 3♠ K♥ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (0): A♧ Q♥ 9♠ 
+	Dealer (9): 3♠ K♥ 6♧ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=12, losses=18, win percentage=0.4}
+	Player{name='BankerBetter', id=1, balance=1.2000000000000013, wins=16, losses=14, win percentage=0.5333333333333333}
+	Player{name='TieBetter', id=2, balance=-12.0, wins=2, losses=28, win percentage=0.06666666666666667}
+	Player{name='CustomBetter', id=3, balance=2.6500000000000012, wins=13, losses=17, win percentage=0.43333333333333335}
+
+ROUND 31
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+	Reshuffling cards
+HANDS
+	Player (8): A♧ 7♠ 
+	Dealer (1): A♠ Q♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=13, losses=18, win percentage=0.41935483870967744}
+	Player{name='BankerBetter', id=1, balance=0.2000000000000013, wins=16, losses=15, win percentage=0.5161290322580645}
+	Player{name='TieBetter', id=2, balance=-13.0, wins=2, losses=29, win percentage=0.06451612903225806}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=14, losses=17, win percentage=0.45161290322580644}
+
+ROUND 32
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 8♧ 5♠ 
+	Dealer (9): 9♥ K♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=13, losses=19, win percentage=0.40625}
+	Player{name='BankerBetter', id=1, balance=1.1500000000000012, wins=17, losses=15, win percentage=0.53125}
+	Player{name='TieBetter', id=2, balance=-14.0, wins=2, losses=30, win percentage=0.0625}
+	Player{name='CustomBetter', id=3, balance=2.6500000000000012, wins=14, losses=18, win percentage=0.4375}
+
+ROUND 33
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (9): J♠ 9♠ 
+	Dealer (0): 10♧ K♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=14, losses=19, win percentage=0.42424242424242425}
+	Player{name='BankerBetter', id=1, balance=0.15000000000000124, wins=17, losses=16, win percentage=0.5151515151515151}
+	Player{name='TieBetter', id=2, balance=-15.0, wins=2, losses=31, win percentage=0.06060606060606061}
+	Player{name='CustomBetter', id=3, balance=3.6500000000000012, wins=15, losses=18, win percentage=0.45454545454545453}
+
+ROUND 34
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 2♧ A♥ 
+	Dealer (9): 6♠ 3♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=14, losses=20, win percentage=0.4117647058823529}
+	Player{name='BankerBetter', id=1, balance=1.1000000000000012, wins=18, losses=16, win percentage=0.5294117647058824}
+	Player{name='TieBetter', id=2, balance=-16.0, wins=2, losses=32, win percentage=0.058823529411764705}
+	Player{name='CustomBetter', id=3, balance=2.6500000000000012, wins=15, losses=19, win percentage=0.4411764705882353}
+
+ROUND 35
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): 2♠ 5♧ 
+	Dealer (2): 3♢ 9♢ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (7): 2♠ 5♧ 
+	Dealer (9): 3♢ 9♢ 7♥ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=14, losses=21, win percentage=0.4}
+	Player{name='BankerBetter', id=1, balance=2.050000000000001, wins=19, losses=16, win percentage=0.5428571428571428}
+	Player{name='TieBetter', id=2, balance=-17.0, wins=2, losses=33, win percentage=0.05714285714285714}
+	Player{name='CustomBetter', id=3, balance=1.6500000000000012, wins=15, losses=20, win percentage=0.42857142857142855}
+
+ROUND 36
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (5): 5♢ Q♥ 
+	Dealer (8): 8♠ Q♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=14, losses=22, win percentage=0.3888888888888889}
+	Player{name='BankerBetter', id=1, balance=3.000000000000001, wins=20, losses=16, win percentage=0.5555555555555556}
+	Player{name='TieBetter', id=2, balance=-18.0, wins=2, losses=34, win percentage=0.05555555555555555}
+	Player{name='CustomBetter', id=3, balance=0.6500000000000012, wins=15, losses=21, win percentage=0.4166666666666667}
+
+ROUND 37
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (2): 10♢ 2♢ 
+	Dealer (2): 3♧ 9♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (8): 10♢ 2♢ 6♧ 
+	Dealer (5): 3♧ 9♧ 3♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=15, losses=22, win percentage=0.40540540540540543}
+	Player{name='BankerBetter', id=1, balance=2.000000000000001, wins=20, losses=17, win percentage=0.5405405405405406}
+	Player{name='TieBetter', id=2, balance=-19.0, wins=2, losses=35, win percentage=0.05405405405405406}
+	Player{name='CustomBetter', id=3, balance=1.6500000000000012, wins=16, losses=21, win percentage=0.43243243243243246}
+
+ROUND 38
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (4): 10♠ 4♢ 
+	Dealer (7): 7♧ Q♠ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (4): 10♠ 4♢ K♢ 
+	Dealer (7): 7♧ Q♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=15, losses=23, win percentage=0.39473684210526316}
+	Player{name='BankerBetter', id=1, balance=2.950000000000001, wins=21, losses=17, win percentage=0.5526315789473685}
+	Player{name='TieBetter', id=2, balance=-20.0, wins=2, losses=36, win percentage=0.05263157894736842}
+	Player{name='CustomBetter', id=3, balance=0.6500000000000012, wins=16, losses=22, win percentage=0.42105263157894735}
+
+ROUND 39
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (9): 8♥ A♢ 
+	Dealer (1): 7♢ 4♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=16, losses=23, win percentage=0.41025641025641024}
+	Player{name='BankerBetter', id=1, balance=1.950000000000001, wins=21, losses=18, win percentage=0.5384615384615384}
+	Player{name='TieBetter', id=2, balance=-21.0, wins=2, losses=37, win percentage=0.05128205128205128}
+	Player{name='CustomBetter', id=3, balance=1.6500000000000012, wins=17, losses=22, win percentage=0.4358974358974359}
+
+ROUND 40
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): 6♥ 10♥ 
+	Dealer (0): J♥ J♧ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): 6♥ 10♥ 
+	Dealer (6): J♥ J♧ 6♢ 
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter won 9.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=16, losses=24, win percentage=0.4}
+	Player{name='BankerBetter', id=1, balance=0.9500000000000011, wins=21, losses=19, win percentage=0.525}
+	Player{name='TieBetter', id=2, balance=-13.0, wins=3, losses=37, win percentage=0.075}
+	Player{name='CustomBetter', id=3, balance=9.650000000000002, wins=18, losses=22, win percentage=0.45}
+
+ROUND 41
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (5): K♥ 5♥ 
+	Dealer (2): 8♢ 4♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (7): K♥ 5♥ 2♥ 
+	Dealer (2): 8♢ 4♠ J♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=17, losses=24, win percentage=0.4146341463414634}
+	Player{name='BankerBetter', id=1, balance=-0.049999999999998934, wins=21, losses=20, win percentage=0.5121951219512195}
+	Player{name='TieBetter', id=2, balance=-14.0, wins=3, losses=38, win percentage=0.07317073170731707}
+	Player{name='CustomBetter', id=3, balance=10.650000000000002, wins=19, losses=22, win percentage=0.4634146341463415}
+
+ROUND 42
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+	Reshuffling cards
+HANDS
+	Player (3): 10♠ 3♥ 
+	Dealer (9): K♠ 9♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=17, losses=25, win percentage=0.40476190476190477}
+	Player{name='BankerBetter', id=1, balance=0.900000000000001, wins=22, losses=20, win percentage=0.5238095238095238}
+	Player{name='TieBetter', id=2, balance=-15.0, wins=3, losses=39, win percentage=0.07142857142857142}
+	Player{name='CustomBetter', id=3, balance=9.650000000000002, wins=19, losses=23, win percentage=0.4523809523809524}
+
+ROUND 43
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (0): J♢ Q♠ 
+	Dealer (8): A♢ 7♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-9.0, wins=17, losses=26, win percentage=0.3953488372093023}
+	Player{name='BankerBetter', id=1, balance=1.850000000000001, wins=23, losses=20, win percentage=0.5348837209302325}
+	Player{name='TieBetter', id=2, balance=-16.0, wins=3, losses=40, win percentage=0.06976744186046512}
+	Player{name='CustomBetter', id=3, balance=8.650000000000002, wins=19, losses=24, win percentage=0.4418604651162791}
+
+ROUND 44
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (0): J♠ J♧ 
+	Dealer (2): 5♧ 7♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): J♠ J♧ 4♢ 
+	Dealer (1): 5♧ 7♠ 9♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=18, losses=26, win percentage=0.4090909090909091}
+	Player{name='BankerBetter', id=1, balance=0.850000000000001, wins=23, losses=21, win percentage=0.5227272727272727}
+	Player{name='TieBetter', id=2, balance=-17.0, wins=3, losses=41, win percentage=0.06818181818181818}
+	Player{name='CustomBetter', id=3, balance=9.650000000000002, wins=20, losses=24, win percentage=0.45454545454545453}
+
+ROUND 45
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (9): 3♧ 6♠ 
+	Dealer (0): A♥ 9♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=19, losses=26, win percentage=0.4222222222222222}
+	Player{name='BankerBetter', id=1, balance=-0.14999999999999902, wins=23, losses=22, win percentage=0.5111111111111111}
+	Player{name='TieBetter', id=2, balance=-18.0, wins=3, losses=42, win percentage=0.06666666666666667}
+	Player{name='CustomBetter', id=3, balance=10.650000000000002, wins=21, losses=24, win percentage=0.4666666666666667}
+
+ROUND 46
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): 6♧ K♢ 
+	Dealer (3): 5♠ 8♥ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): 6♧ K♢ 
+	Dealer (3): 5♠ 8♥ K♥ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=20, losses=26, win percentage=0.43478260869565216}
+	Player{name='BankerBetter', id=1, balance=-1.149999999999999, wins=23, losses=23, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-19.0, wins=3, losses=43, win percentage=0.06521739130434782}
+	Player{name='CustomBetter', id=3, balance=9.650000000000002, wins=21, losses=25, win percentage=0.45652173913043476}
+
+ROUND 47
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): 10♧ 7♧ 
+	Dealer (1): A♧ Q♢ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (7): 10♧ 7♧ 
+	Dealer (1): A♧ Q♢ K♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=21, losses=26, win percentage=0.44680851063829785}
+	Player{name='BankerBetter', id=1, balance=-2.149999999999999, wins=23, losses=24, win percentage=0.48936170212765956}
+	Player{name='TieBetter', id=2, balance=-20.0, wins=3, losses=44, win percentage=0.06382978723404255}
+	Player{name='CustomBetter', id=3, balance=8.650000000000002, wins=21, losses=26, win percentage=0.44680851063829785}
+
+ROUND 48
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (1): 7♢ 4♠ 
+	Dealer (3): 5♥ 8♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (3): 7♢ 4♠ 2♧ 
+	Dealer (5): 5♥ 8♧ 2♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=21, losses=27, win percentage=0.4375}
+	Player{name='BankerBetter', id=1, balance=-1.199999999999999, wins=24, losses=24, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-21.0, wins=3, losses=45, win percentage=0.0625}
+	Player{name='CustomBetter', id=3, balance=7.650000000000002, wins=21, losses=27, win percentage=0.4375}
+
+ROUND 49
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (2): 8♠ 4♧ 
+	Dealer (5): 10♥ 5♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (8): 8♠ 4♧ 6♢ 
+	Dealer (9): 10♥ 5♢ 4♥ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=21, losses=28, win percentage=0.42857142857142855}
+	Player{name='BankerBetter', id=1, balance=-0.24999999999999933, wins=25, losses=24, win percentage=0.5102040816326531}
+	Player{name='TieBetter', id=2, balance=-22.0, wins=3, losses=46, win percentage=0.061224489795918366}
+	Player{name='CustomBetter', id=3, balance=6.650000000000002, wins=21, losses=28, win percentage=0.42857142857142855}
+
+ROUND 50
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): A♠ 8♢ 
+	Dealer (5): 2♥ 3♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=22, losses=28, win percentage=0.44}
+	Player{name='BankerBetter', id=1, balance=-1.2499999999999993, wins=25, losses=25, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-23.0, wins=3, losses=47, win percentage=0.06}
+	Player{name='CustomBetter', id=3, balance=5.650000000000002, wins=21, losses=29, win percentage=0.42}
+
+ROUND 51
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): J♥ 6♥ 
+	Dealer (3): 3♠ Q♥ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): J♥ 6♥ 
+	Dealer (2): 3♠ Q♥ 9♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=23, losses=28, win percentage=0.45098039215686275}
+	Player{name='BankerBetter', id=1, balance=-2.249999999999999, wins=25, losses=26, win percentage=0.49019607843137253}
+	Player{name='TieBetter', id=2, balance=-24.0, wins=3, losses=48, win percentage=0.058823529411764705}
+	Player{name='CustomBetter', id=3, balance=4.650000000000002, wins=21, losses=30, win percentage=0.4117647058823529}
+
+ROUND 52
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+	Reshuffling cards
+HANDS
+	Player (4): K♢ 4♥ 
+	Dealer (2): 2♠ J♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (1): K♢ 4♥ 7♢ 
+	Dealer (2): 2♠ J♧ J♢ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=23, losses=29, win percentage=0.4423076923076923}
+	Player{name='BankerBetter', id=1, balance=-1.2999999999999992, wins=26, losses=26, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=-25.0, wins=3, losses=49, win percentage=0.057692307692307696}
+	Player{name='CustomBetter', id=3, balance=3.650000000000002, wins=21, losses=31, win percentage=0.40384615384615385}
+
+ROUND 53
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): K♠ 9♠ 
+	Dealer (7): 7♧ Q♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=24, losses=29, win percentage=0.4528301886792453}
+	Player{name='BankerBetter', id=1, balance=-2.299999999999999, wins=26, losses=27, win percentage=0.49056603773584906}
+	Player{name='TieBetter', id=2, balance=-26.0, wins=3, losses=50, win percentage=0.05660377358490566}
+	Player{name='CustomBetter', id=3, balance=2.650000000000002, wins=21, losses=32, win percentage=0.39622641509433965}
+
+ROUND 54
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (8): Q♧ 8♧ 
+	Dealer (5): 5♥ Q♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=25, losses=29, win percentage=0.46296296296296297}
+	Player{name='BankerBetter', id=1, balance=-3.299999999999999, wins=26, losses=28, win percentage=0.48148148148148145}
+	Player{name='TieBetter', id=2, balance=-27.0, wins=3, losses=51, win percentage=0.05555555555555555}
+	Player{name='CustomBetter', id=3, balance=1.6500000000000021, wins=21, losses=33, win percentage=0.3888888888888889}
+
+ROUND 55
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (2): 6♢ 6♠ 
+	Dealer (3): 3♥ 10♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (7): 6♢ 6♠ 5♧ 
+	Dealer (3): 3♥ 10♧ 10♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=26, losses=29, win percentage=0.4727272727272727}
+	Player{name='BankerBetter', id=1, balance=-4.299999999999999, wins=26, losses=29, win percentage=0.4727272727272727}
+	Player{name='TieBetter', id=2, balance=-28.0, wins=3, losses=52, win percentage=0.05454545454545454}
+	Player{name='CustomBetter', id=3, balance=0.6500000000000021, wins=21, losses=34, win percentage=0.38181818181818183}
+
+ROUND 56
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (8): K♥ 8♠ 
+	Dealer (5): 5♢ 10♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=27, losses=29, win percentage=0.48214285714285715}
+	Player{name='BankerBetter', id=1, balance=-5.299999999999999, wins=26, losses=30, win percentage=0.4642857142857143}
+	Player{name='TieBetter', id=2, balance=-29.0, wins=3, losses=53, win percentage=0.05357142857142857}
+	Player{name='CustomBetter', id=3, balance=-0.34999999999999787, wins=21, losses=35, win percentage=0.375}
+
+ROUND 57
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): Q♢ 7♠ 
+	Dealer (8): 5♠ 3♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=27, losses=30, win percentage=0.47368421052631576}
+	Player{name='BankerBetter', id=1, balance=-4.349999999999999, wins=27, losses=30, win percentage=0.47368421052631576}
+	Player{name='TieBetter', id=2, balance=-30.0, wins=3, losses=54, win percentage=0.05263157894736842}
+	Player{name='CustomBetter', id=3, balance=-1.3499999999999979, wins=21, losses=36, win percentage=0.3684210526315789}
+
+ROUND 58
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): J♠ 9♧ 
+	Dealer (8): 7♥ A♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=28, losses=30, win percentage=0.4827586206896552}
+	Player{name='BankerBetter', id=1, balance=-5.349999999999999, wins=27, losses=31, win percentage=0.46551724137931033}
+	Player{name='TieBetter', id=2, balance=-31.0, wins=3, losses=55, win percentage=0.05172413793103448}
+	Player{name='CustomBetter', id=3, balance=-2.349999999999998, wins=21, losses=37, win percentage=0.3620689655172414}
+
+ROUND 59
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (4): 3♢ A♧ 
+	Dealer (2): A♥ A♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): 3♢ A♧ K♧ 
+	Dealer (4): A♥ A♠ 2♢ 
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter won 9.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=28, losses=31, win percentage=0.4745762711864407}
+	Player{name='BankerBetter', id=1, balance=-6.349999999999999, wins=27, losses=32, win percentage=0.4576271186440678}
+	Player{name='TieBetter', id=2, balance=-23.0, wins=4, losses=55, win percentage=0.06779661016949153}
+	Player{name='CustomBetter', id=3, balance=5.650000000000002, wins=22, losses=37, win percentage=0.3728813559322034}
+
+ROUND 60
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): 6♥ 3♧ 
+	Dealer (8): 6♧ 2♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=29, losses=31, win percentage=0.48333333333333334}
+	Player{name='BankerBetter', id=1, balance=-7.349999999999999, wins=27, losses=33, win percentage=0.45}
+	Player{name='TieBetter', id=2, balance=-24.0, wins=4, losses=56, win percentage=0.06666666666666667}
+	Player{name='CustomBetter', id=3, balance=4.650000000000002, wins=22, losses=38, win percentage=0.36666666666666664}
+
+ROUND 61
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (4): J♥ 4♢ 
+	Dealer (7): 8♥ 9♢ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (8): J♥ 4♢ 4♠ 
+	Dealer (7): 8♥ 9♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=30, losses=31, win percentage=0.4918032786885246}
+	Player{name='BankerBetter', id=1, balance=-8.349999999999998, wins=27, losses=34, win percentage=0.4426229508196721}
+	Player{name='TieBetter', id=2, balance=-25.0, wins=4, losses=57, win percentage=0.06557377049180328}
+	Player{name='CustomBetter', id=3, balance=3.650000000000002, wins=22, losses=39, win percentage=0.36065573770491804}
+
+ROUND 62
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+	Reshuffling cards
+HANDS
+	Player (0): 10♢ K♠ 
+	Dealer (1): 5♠ 6♥ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (8): 10♢ K♠ 8♧ 
+	Dealer (3): 5♠ 6♥ 2♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=31, losses=31, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-9.349999999999998, wins=27, losses=35, win percentage=0.43548387096774194}
+	Player{name='TieBetter', id=2, balance=-26.0, wins=4, losses=58, win percentage=0.06451612903225806}
+	Player{name='CustomBetter', id=3, balance=2.650000000000002, wins=22, losses=40, win percentage=0.3548387096774194}
+
+ROUND 63
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (1): 8♢ 3♥ 
+	Dealer (9): 9♢ Q♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=31, losses=32, win percentage=0.49206349206349204}
+	Player{name='BankerBetter', id=1, balance=-8.399999999999999, wins=28, losses=35, win percentage=0.4444444444444444}
+	Player{name='TieBetter', id=2, balance=-27.0, wins=4, losses=59, win percentage=0.06349206349206349}
+	Player{name='CustomBetter', id=3, balance=1.6500000000000021, wins=22, losses=41, win percentage=0.3492063492063492}
+
+ROUND 64
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): 2♥ 7♥ 
+	Dealer (1): A♢ K♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=32, losses=32, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-9.399999999999999, wins=28, losses=36, win percentage=0.4375}
+	Player{name='TieBetter', id=2, balance=-28.0, wins=4, losses=60, win percentage=0.0625}
+	Player{name='CustomBetter', id=3, balance=0.6500000000000021, wins=22, losses=42, win percentage=0.34375}
+
+ROUND 65
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 3♠ Q♥ 
+	Dealer (7): J♧ 7♧ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (9): 3♠ Q♥ 6♧ 
+	Dealer (7): J♧ 7♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=1.0, wins=33, losses=32, win percentage=0.5076923076923077}
+	Player{name='BankerBetter', id=1, balance=-10.399999999999999, wins=28, losses=37, win percentage=0.4307692307692308}
+	Player{name='TieBetter', id=2, balance=-29.0, wins=4, losses=61, win percentage=0.06153846153846154}
+	Player{name='CustomBetter', id=3, balance=-0.34999999999999787, wins=22, losses=43, win percentage=0.3384615384615385}
+
+ROUND 66
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): 10♧ 9♥ 
+	Dealer (1): 4♠ 7♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=2.0, wins=34, losses=32, win percentage=0.5151515151515151}
+	Player{name='BankerBetter', id=1, balance=-11.399999999999999, wins=28, losses=38, win percentage=0.42424242424242425}
+	Player{name='TieBetter', id=2, balance=-30.0, wins=4, losses=62, win percentage=0.06060606060606061}
+	Player{name='CustomBetter', id=3, balance=-1.3499999999999979, wins=22, losses=44, win percentage=0.3333333333333333}
+
+ROUND 67
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (8): 8♥ Q♢ 
+	Dealer (5): Q♧ 5♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=3.0, wins=35, losses=32, win percentage=0.5223880597014925}
+	Player{name='BankerBetter', id=1, balance=-12.399999999999999, wins=28, losses=39, win percentage=0.417910447761194}
+	Player{name='TieBetter', id=2, balance=-31.0, wins=4, losses=63, win percentage=0.05970149253731343}
+	Player{name='CustomBetter', id=3, balance=-2.349999999999998, wins=22, losses=45, win percentage=0.3283582089552239}
+
+ROUND 68
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (4): 4♢ J♠ 
+	Dealer (6): 6♢ K♧ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (4): 4♢ J♠ 10♠ 
+	Dealer (6): 6♢ K♧ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=2.0, wins=35, losses=33, win percentage=0.5147058823529411}
+	Player{name='BankerBetter', id=1, balance=-11.45, wins=29, losses=39, win percentage=0.4264705882352941}
+	Player{name='TieBetter', id=2, balance=-32.0, wins=4, losses=64, win percentage=0.058823529411764705}
+	Player{name='CustomBetter', id=3, balance=-1.399999999999998, wins=23, losses=45, win percentage=0.3382352941176471}
+
+ROUND 69
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): 9♧ 7♠ 
+	Dealer (2): 2♢ 10♥ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): 9♧ 7♠ 
+	Dealer (6): 2♢ 10♥ 4♧ 
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter won 9.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=1.0, wins=35, losses=34, win percentage=0.5072463768115942}
+	Player{name='BankerBetter', id=1, balance=-12.45, wins=29, losses=40, win percentage=0.42028985507246375}
+	Player{name='TieBetter', id=2, balance=-24.0, wins=5, losses=64, win percentage=0.07246376811594203}
+	Player{name='CustomBetter', id=3, balance=6.600000000000002, wins=24, losses=45, win percentage=0.34782608695652173}
+
+ROUND 70
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (1): A♥ J♢ 
+	Dealer (2): J♥ 2♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (2): A♥ J♢ A♧ 
+	Dealer (5): J♥ 2♠ 3♢ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=0.0, wins=35, losses=35, win percentage=0.5}
+	Player{name='BankerBetter', id=1, balance=-11.5, wins=30, losses=40, win percentage=0.42857142857142855}
+	Player{name='TieBetter', id=2, balance=-25.0, wins=5, losses=65, win percentage=0.07142857142857142}
+	Player{name='CustomBetter', id=3, balance=7.5500000000000025, wins=25, losses=45, win percentage=0.35714285714285715}
+
+ROUND 71
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (7): 6♠ A♠ 
+	Dealer (8): 3♧ 5♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=35, losses=36, win percentage=0.49295774647887325}
+	Player{name='BankerBetter', id=1, balance=-10.55, wins=31, losses=40, win percentage=0.43661971830985913}
+	Player{name='TieBetter', id=2, balance=-26.0, wins=5, losses=66, win percentage=0.07042253521126761}
+	Player{name='CustomBetter', id=3, balance=8.500000000000002, wins=26, losses=45, win percentage=0.36619718309859156}
+
+ROUND 72
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+	Reshuffling cards
+HANDS
+	Player (2): K♥ 2♥ 
+	Dealer (9): Q♢ 9♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=35, losses=37, win percentage=0.4861111111111111}
+	Player{name='BankerBetter', id=1, balance=-9.600000000000001, wins=32, losses=40, win percentage=0.4444444444444444}
+	Player{name='TieBetter', id=2, balance=-27.0, wins=5, losses=67, win percentage=0.06944444444444445}
+	Player{name='CustomBetter', id=3, balance=7.500000000000002, wins=26, losses=46, win percentage=0.3611111111111111}
+
+ROUND 73
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (0): 10♠ Q♧ 
+	Dealer (0): J♥ 10♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): 10♠ Q♧ 4♧ 
+	Dealer (0): J♥ 10♢ K♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=36, losses=37, win percentage=0.4931506849315068}
+	Player{name='BankerBetter', id=1, balance=-10.600000000000001, wins=32, losses=41, win percentage=0.4383561643835616}
+	Player{name='TieBetter', id=2, balance=-28.0, wins=5, losses=68, win percentage=0.0684931506849315}
+	Player{name='CustomBetter', id=3, balance=6.500000000000002, wins=26, losses=47, win percentage=0.3561643835616438}
+
+ROUND 74
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (1): 10♥ A♠ 
+	Dealer (8): 4♠ 4♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=36, losses=38, win percentage=0.4864864864864865}
+	Player{name='BankerBetter', id=1, balance=-9.650000000000002, wins=33, losses=41, win percentage=0.44594594594594594}
+	Player{name='TieBetter', id=2, balance=-29.0, wins=5, losses=69, win percentage=0.06756756756756757}
+	Player{name='CustomBetter', id=3, balance=5.500000000000002, wins=26, losses=48, win percentage=0.35135135135135137}
+
+ROUND 75
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (4): 9♥ 5♠ 
+	Dealer (1): 6♧ 5♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): 9♥ 5♠ 10♧ 
+	Dealer (1): 6♧ 5♧ K♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=37, losses=38, win percentage=0.49333333333333335}
+	Player{name='BankerBetter', id=1, balance=-10.650000000000002, wins=33, losses=42, win percentage=0.44}
+	Player{name='TieBetter', id=2, balance=-30.0, wins=5, losses=70, win percentage=0.06666666666666667}
+	Player{name='CustomBetter', id=3, balance=4.500000000000002, wins=26, losses=49, win percentage=0.3466666666666667}
+
+ROUND 76
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 6♥ 7♢ 
+	Dealer (9): Q♥ 9♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=37, losses=39, win percentage=0.4868421052631579}
+	Player{name='BankerBetter', id=1, balance=-9.700000000000003, wins=34, losses=42, win percentage=0.4473684210526316}
+	Player{name='TieBetter', id=2, balance=-31.0, wins=5, losses=71, win percentage=0.06578947368421052}
+	Player{name='CustomBetter', id=3, balance=3.5000000000000018, wins=26, losses=50, win percentage=0.34210526315789475}
+
+ROUND 77
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (5): 7♠ 8♠ 
+	Dealer (8): J♧ 8♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=37, losses=40, win percentage=0.4805194805194805}
+	Player{name='BankerBetter', id=1, balance=-8.750000000000004, wins=35, losses=42, win percentage=0.45454545454545453}
+	Player{name='TieBetter', id=2, balance=-32.0, wins=5, losses=72, win percentage=0.06493506493506493}
+	Player{name='CustomBetter', id=3, balance=2.5000000000000018, wins=26, losses=51, win percentage=0.33766233766233766}
+
+ROUND 78
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (8): K♢ 8♢ 
+	Dealer (3): 6♢ 7♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=38, losses=40, win percentage=0.48717948717948717}
+	Player{name='BankerBetter', id=1, balance=-9.750000000000004, wins=35, losses=43, win percentage=0.44871794871794873}
+	Player{name='TieBetter', id=2, balance=-33.0, wins=5, losses=73, win percentage=0.0641025641025641}
+	Player{name='CustomBetter', id=3, balance=1.5000000000000018, wins=26, losses=52, win percentage=0.3333333333333333}
+
+ROUND 79
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (5): A♧ 4♢ 
+	Dealer (8): 3♢ 5♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=38, losses=41, win percentage=0.4810126582278481}
+	Player{name='BankerBetter', id=1, balance=-8.800000000000004, wins=36, losses=43, win percentage=0.45569620253164556}
+	Player{name='TieBetter', id=2, balance=-34.0, wins=5, losses=74, win percentage=0.06329113924050633}
+	Player{name='CustomBetter', id=3, balance=0.5000000000000018, wins=26, losses=53, win percentage=0.3291139240506329}
+
+ROUND 80
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): 5♥ 2♧ 
+	Dealer (9): 8♥ A♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=38, losses=42, win percentage=0.475}
+	Player{name='BankerBetter', id=1, balance=-7.850000000000004, wins=37, losses=43, win percentage=0.4625}
+	Player{name='TieBetter', id=2, balance=-35.0, wins=5, losses=75, win percentage=0.0625}
+	Player{name='CustomBetter', id=3, balance=-0.4999999999999982, wins=26, losses=54, win percentage=0.325}
+
+ROUND 81
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): 7♥ Q♠ 
+	Dealer (9): 9♧ J♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=38, losses=43, win percentage=0.4691358024691358}
+	Player{name='BankerBetter', id=1, balance=-6.900000000000005, wins=38, losses=43, win percentage=0.4691358024691358}
+	Player{name='TieBetter', id=2, balance=-36.0, wins=5, losses=76, win percentage=0.06172839506172839}
+	Player{name='CustomBetter', id=3, balance=-1.4999999999999982, wins=26, losses=55, win percentage=0.32098765432098764}
+
+ROUND 82
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 2♢ A♥ 
+	Dealer (6): 3♠ 3♥ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (5): 2♢ A♥ 2♠ 
+	Dealer (6): 3♠ 3♥ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=38, losses=44, win percentage=0.4634146341463415}
+	Player{name='BankerBetter', id=1, balance=-5.950000000000005, wins=39, losses=43, win percentage=0.47560975609756095}
+	Player{name='TieBetter', id=2, balance=-37.0, wins=5, losses=77, win percentage=0.06097560975609756}
+	Player{name='CustomBetter', id=3, balance=-2.4999999999999982, wins=26, losses=56, win percentage=0.3170731707317073}
+
+ROUND 83
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+	Reshuffling cards
+HANDS
+	Player (1): 7♠ 4♥ 
+	Dealer (9): 9♧ K♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=38, losses=45, win percentage=0.4578313253012048}
+	Player{name='BankerBetter', id=1, balance=-5.000000000000004, wins=40, losses=43, win percentage=0.4819277108433735}
+	Player{name='TieBetter', id=2, balance=-38.0, wins=5, losses=78, win percentage=0.060240963855421686}
+	Player{name='CustomBetter', id=3, balance=-3.4999999999999982, wins=26, losses=57, win percentage=0.3132530120481928}
+
+ROUND 84
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (9): 4♠ 5♢ 
+	Dealer (1): 6♥ 5♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=39, losses=45, win percentage=0.4642857142857143}
+	Player{name='BankerBetter', id=1, balance=-6.000000000000004, wins=40, losses=44, win percentage=0.47619047619047616}
+	Player{name='TieBetter', id=2, balance=-39.0, wins=5, losses=79, win percentage=0.05952380952380952}
+	Player{name='CustomBetter', id=3, balance=-4.499999999999998, wins=26, losses=58, win percentage=0.30952380952380953}
+
+ROUND 85
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (7): 7♥ 10♠ 
+	Dealer (7): 8♥ 9♠ 
+HIT/STAND
+HANDS
+	Player (7): 7♥ 10♠ 
+	Dealer (7): 8♥ 9♠ 
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter won 9.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=39, losses=46, win percentage=0.4588235294117647}
+	Player{name='BankerBetter', id=1, balance=-7.000000000000004, wins=40, losses=45, win percentage=0.47058823529411764}
+	Player{name='TieBetter', id=2, balance=-31.0, wins=6, losses=79, win percentage=0.07058823529411765}
+	Player{name='CustomBetter', id=3, balance=3.5000000000000018, wins=27, losses=58, win percentage=0.3176470588235294}
+
+ROUND 86
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (8): 10♧ 8♢ 
+	Dealer (7): A♧ 6♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=40, losses=46, win percentage=0.46511627906976744}
+	Player{name='BankerBetter', id=1, balance=-8.000000000000004, wins=40, losses=46, win percentage=0.46511627906976744}
+	Player{name='TieBetter', id=2, balance=-32.0, wins=6, losses=80, win percentage=0.06976744186046512}
+	Player{name='CustomBetter', id=3, balance=2.5000000000000018, wins=27, losses=59, win percentage=0.313953488372093}
+
+ROUND 87
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): Q♥ 3♧ 
+	Dealer (1): J♥ A♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (9): Q♥ 3♧ 6♠ 
+	Dealer (5): J♥ A♠ 4♢ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=41, losses=46, win percentage=0.47126436781609193}
+	Player{name='BankerBetter', id=1, balance=-9.000000000000004, wins=40, losses=47, win percentage=0.45977011494252873}
+	Player{name='TieBetter', id=2, balance=-33.0, wins=6, losses=81, win percentage=0.06896551724137931}
+	Player{name='CustomBetter', id=3, balance=1.5000000000000018, wins=27, losses=60, win percentage=0.3103448275862069}
+
+ROUND 88
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): 7♢ 9♢ 
+	Dealer (2): K♢ 2♠ 
+HIT/STAND
+	Dealer hits
+HANDS
+	Player (6): 7♢ 9♢ 
+	Dealer (2): K♢ 2♠ K♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=42, losses=46, win percentage=0.4772727272727273}
+	Player{name='BankerBetter', id=1, balance=-10.000000000000004, wins=40, losses=48, win percentage=0.45454545454545453}
+	Player{name='TieBetter', id=2, balance=-34.0, wins=6, losses=82, win percentage=0.06818181818181818}
+	Player{name='CustomBetter', id=3, balance=0.5000000000000018, wins=27, losses=61, win percentage=0.3068181818181818}
+
+ROUND 89
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (8): 8♠ Q♢ 
+	Dealer (5): 5♠ J♢ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=43, losses=46, win percentage=0.48314606741573035}
+	Player{name='BankerBetter', id=1, balance=-11.000000000000004, wins=40, losses=49, win percentage=0.449438202247191}
+	Player{name='TieBetter', id=2, balance=-35.0, wins=6, losses=83, win percentage=0.06741573033707865}
+	Player{name='CustomBetter', id=3, balance=-0.4999999999999982, wins=27, losses=62, win percentage=0.30337078651685395}
+
+ROUND 90
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (4): Q♧ 4♧ 
+	Dealer (3): 7♧ 6♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (4): Q♧ 4♧ 10♢ 
+	Dealer (3): 7♧ 6♢ J♠ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=44, losses=46, win percentage=0.4888888888888889}
+	Player{name='BankerBetter', id=1, balance=-12.000000000000004, wins=40, losses=50, win percentage=0.4444444444444444}
+	Player{name='TieBetter', id=2, balance=-36.0, wins=6, losses=84, win percentage=0.06666666666666667}
+	Player{name='CustomBetter', id=3, balance=-1.4999999999999982, wins=27, losses=63, win percentage=0.3}
+
+ROUND 91
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (2): J♧ 2♢ 
+	Dealer (6): 5♥ A♢ 
+HIT/STAND
+	Player hits
+HANDS
+	Player (2): J♧ 2♢ K♥ 
+	Dealer (6): 5♥ A♢ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=44, losses=47, win percentage=0.4835164835164835}
+	Player{name='BankerBetter', id=1, balance=-11.050000000000004, wins=41, losses=50, win percentage=0.45054945054945056}
+	Player{name='TieBetter', id=2, balance=-37.0, wins=6, losses=85, win percentage=0.06593406593406594}
+	Player{name='CustomBetter', id=3, balance=-2.4999999999999982, wins=27, losses=64, win percentage=0.2967032967032967}
+
+ROUND 92
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (5): 2♧ 3♠ 
+	Dealer (0): 2♥ 8♧ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (8): 2♧ 3♠ 3♢ 
+	Dealer (1): 2♥ 8♧ A♥ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=45, losses=47, win percentage=0.4891304347826087}
+	Player{name='BankerBetter', id=1, balance=-12.050000000000004, wins=41, losses=51, win percentage=0.44565217391304346}
+	Player{name='TieBetter', id=2, balance=-38.0, wins=6, losses=86, win percentage=0.06521739130434782}
+	Player{name='CustomBetter', id=3, balance=-3.4999999999999982, wins=27, losses=65, win percentage=0.29347826086956524}
+
+ROUND 93
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+	Reshuffling cards
+HANDS
+	Player (2): 2♥ Q♥ 
+	Dealer (4): K♧ 4♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (2): 2♥ Q♥ K♢ 
+	Dealer (4): K♧ 4♢ 10♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-3.0, wins=45, losses=48, win percentage=0.4838709677419355}
+	Player{name='BankerBetter', id=1, balance=-11.100000000000005, wins=42, losses=51, win percentage=0.45161290322580644}
+	Player{name='TieBetter', id=2, balance=-39.0, wins=6, losses=87, win percentage=0.06451612903225806}
+	Player{name='CustomBetter', id=3, balance=-4.499999999999998, wins=27, losses=66, win percentage=0.2903225806451613}
+
+ROUND 94
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (3): 3♥ J♢ 
+	Dealer (9): J♥ 9♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-4.0, wins=45, losses=49, win percentage=0.4787234042553192}
+	Player{name='BankerBetter', id=1, balance=-10.150000000000006, wins=43, losses=51, win percentage=0.4574468085106383}
+	Player{name='TieBetter', id=2, balance=-40.0, wins=6, losses=88, win percentage=0.06382978723404255}
+	Player{name='CustomBetter', id=3, balance=-5.499999999999998, wins=27, losses=67, win percentage=0.2872340425531915}
+
+ROUND 95
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (6): A♧ 5♢ 
+	Dealer (8): 8♢ K♥ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-5.0, wins=45, losses=50, win percentage=0.47368421052631576}
+	Player{name='BankerBetter', id=1, balance=-9.200000000000006, wins=44, losses=51, win percentage=0.4631578947368421}
+	Player{name='TieBetter', id=2, balance=-41.0, wins=6, losses=89, win percentage=0.06315789473684211}
+	Player{name='CustomBetter', id=3, balance=-6.499999999999998, wins=27, losses=68, win percentage=0.28421052631578947}
+
+ROUND 96
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (0): 6♠ 4♥ 
+	Dealer (0): Q♢ K♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (2): 6♠ 4♥ 2♠ 
+	Dealer (2): Q♢ K♠ 2♢ 
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter won 9.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-6.0, wins=45, losses=51, win percentage=0.46875}
+	Player{name='BankerBetter', id=1, balance=-10.200000000000006, wins=44, losses=52, win percentage=0.4583333333333333}
+	Player{name='TieBetter', id=2, balance=-33.0, wins=7, losses=89, win percentage=0.07291666666666667}
+	Player{name='CustomBetter', id=3, balance=1.5000000000000018, wins=28, losses=68, win percentage=0.2916666666666667}
+
+ROUND 97
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (0): 7♥ 3♧ 
+	Dealer (8): 8♠ J♧ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-7.0, wins=45, losses=52, win percentage=0.4639175257731959}
+	Player{name='BankerBetter', id=1, balance=-9.250000000000007, wins=45, losses=52, win percentage=0.4639175257731959}
+	Player{name='TieBetter', id=2, balance=-34.0, wins=7, losses=90, win percentage=0.07216494845360824}
+	Player{name='CustomBetter', id=3, balance=0.5000000000000018, wins=28, losses=69, win percentage=0.28865979381443296}
+
+ROUND 98
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (4): 6♧ 8♥ 
+	Dealer (3): 10♢ 3♢ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (1): 6♧ 8♥ 7♢ 
+	Dealer (6): 10♢ 3♢ 3♠ 
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=45, losses=53, win percentage=0.45918367346938777}
+	Player{name='BankerBetter', id=1, balance=-8.300000000000008, wins=46, losses=52, win percentage=0.46938775510204084}
+	Player{name='TieBetter', id=2, balance=-35.0, wins=7, losses=91, win percentage=0.07142857142857142}
+	Player{name='CustomBetter', id=3, balance=-0.4999999999999982, wins=28, losses=70, win percentage=0.2857142857142857}
+
+ROUND 99
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (5): 7♠ 8♧ 
+	Dealer (9): 9♢ J♠ 
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-9.0, wins=45, losses=54, win percentage=0.45454545454545453}
+	Player{name='BankerBetter', id=1, balance=-7.350000000000008, wins=47, losses=52, win percentage=0.47474747474747475}
+	Player{name='TieBetter', id=2, balance=-36.0, wins=7, losses=92, win percentage=0.0707070707070707}
+	Player{name='CustomBetter', id=3, balance=-1.4999999999999982, wins=28, losses=71, win percentage=0.2828282828282828}
+
+ROUND 100
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on TIE
+HANDS
+	Player (5): 10♥ 5♧ 
+	Dealer (3): 4♠ 9♠ 
+HIT/STAND
+	Player hits
+	Dealer hits
+HANDS
+	Player (5): 10♥ 5♧ Q♧ 
+	Dealer (0): 4♠ 9♠ 7♧ 
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-8.0, wins=46, losses=54, win percentage=0.46}
+	Player{name='BankerBetter', id=1, balance=-8.350000000000009, wins=47, losses=53, win percentage=0.47}
+	Player{name='TieBetter', id=2, balance=-37.0, wins=7, losses=93, win percentage=0.07}
+	Player{name='CustomBetter', id=3, balance=-2.4999999999999982, wins=28, losses=72, win percentage=0.28}
+
+STATISTICS
+	Rounds played: 100
+	Player hand wins: 46
+	Banker hand wins: 47
+	Tie hand wins: 7
+	Player hand win %: 0.46
+	Banker hand win %: 0.47
+	Tie hand win %: 0.07
+	House balance: 55.84999999999995

@@ -1,0 +1,81 @@
+ROUND 1
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on BANKER
+HANDS
+	Player (5): K♥ 5♢
+	Dealer (8): 8♢ J♧
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: BANKER
+	PlayerBetter lost 1
+	BankerBetter won 1.95
+	TieBetter lost 1
+	CustomBetter won 1.95
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=0, losses=1, win percentage=0.0}
+	Player{name='BankerBetter', id=1, balance=0.95, wins=1, losses=0, win percentage=1.0}
+	Player{name='TieBetter', id=2, balance=-1.0, wins=0, losses=1, win percentage=0.0}
+	Player{name='CustomBetter', id=3, balance=0.95, wins=1, losses=0, win percentage=1.0}
+
+ROUND 2
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (9): 6♢ 3♧
+	Dealer (9): 7♠ 2♥
+HIT/STAND
+	Player and Banker stand
+RESULTS
+	Winner: TIE
+	PlayerBetter lost 1
+	BankerBetter lost 1
+	TieBetter won 9.0
+	CustomBetter lost 1
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-2.0, wins=0, losses=2, win percentage=0.0}
+	Player{name='BankerBetter', id=1, balance=-0.050000000000000044, wins=1, losses=1, win percentage=0.5}
+	Player{name='TieBetter', id=2, balance=7.0, wins=1, losses=1, win percentage=0.5}
+	Player{name='CustomBetter', id=3, balance=-0.050000000000000044, wins=1, losses=1, win percentage=0.5}
+
+ROUND 3
+BETS
+	PlayerBetter bet 1 on PLAYER
+	BankerBetter bet 1 on BANKER
+	TieBetter bet 1 on TIE
+	CustomBetter bet 1 on PLAYER
+HANDS
+	Player (0): Q♠ K♢
+	Dealer (6): 8♠ 8♥
+HIT/STAND
+	Player hits
+HANDS
+	Player (7): Q♠ K♢ 7♢
+	Dealer (6): 8♠ 8♥
+RESULTS
+	Winner: PLAYER
+	PlayerBetter won 2.0
+	BankerBetter lost 1
+	TieBetter lost 1
+	CustomBetter won 2.0
+PLAYERS
+	Player{name='PlayerBetter', id=0, balance=-1.0, wins=1, losses=2, win percentage=0.3333333333333333}
+	Player{name='BankerBetter', id=1, balance=-1.05, wins=1, losses=2, win percentage=0.3333333333333333}
+	Player{name='TieBetter', id=2, balance=6.0, wins=1, losses=2, win percentage=0.3333333333333333}
+	Player{name='CustomBetter', id=3, balance=0.95, wins=2, losses=1, win percentage=0.6666666666666666}
+
+STATISTICS
+	Rounds played: 3
+	Player hand wins: 1
+	Banker hand wins: 1
+	Tie hand wins: 1
+	Player hand win %: 0.3333333333333333
+	Banker hand win %: 0.3333333333333333
+	Tie hand win %: 0.3333333333333333
+	House balance: -4.9
